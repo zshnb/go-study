@@ -1,4 +1,4 @@
-package main
+package hello
 
 const englishPrefix = "hello "
 const spanishPrefix = "hola "
