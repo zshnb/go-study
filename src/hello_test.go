@@ -24,4 +24,9 @@ func TestHello(t *testing.T) {
 		want := "hola zsh"
 		assertEquals(t, got, want)
 	})
+	t.Run("say in french", func(t *testing.T) {
+		got := getString("zsh", "french")
+		want := "bonjue zsh"
+		assertEquals(t, got, want)
+	})
 }
