@@ -1,4 +1,4 @@
-package perimeter
+package strcut
 
 type Rectangle struct {
 	width float64

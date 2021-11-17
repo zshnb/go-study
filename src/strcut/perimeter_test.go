@@ -1,4 +1,4 @@
-package perimeter
+package strcut
 
 import "testing"
 
